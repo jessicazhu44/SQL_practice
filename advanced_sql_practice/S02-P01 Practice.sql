@@ -15,7 +15,7 @@ SELECT
 	`department`.`id` AS `department_id`, `department`.`name` AS `last_department_name`
 FROM `employee`
 INNER JOIN
-	(SELECT 	-- selects the max id of each employee
+	(SELECT 	-- select the max id of each employee
 		`department_employee_rel`.`employee_id`, 
 		max(`department_employee_rel`.`id`) AS `max_id` 
 	FROM `department_employee_rel` 
