@@ -6,6 +6,7 @@ Assignment: Rewrite and beautify the query below
 	4. Added 'where 1=1 and'
 	5. Added space between lines
 
+
 Function: Find all the selected employees, their names and the most recent department.
 */
 
